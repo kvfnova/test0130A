@@ -1,3 +1,5 @@
+
+111
 def calculate_bmi(height, weight):
     """
     計算 BMI 值
@@ -11,6 +13,8 @@ def calculate_bmi(height, weight):
     """
     bmi = weight / (height ** 2)
     return round(bmi, 2)
+
+
 
 
 def get_bmi_category(bmi):
